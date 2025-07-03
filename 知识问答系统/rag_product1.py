@@ -126,7 +126,7 @@ with gr.Blocks(title="知识问答系统",theme=custom_theme(), elem_id="app-con
                             web_search_toggle = gr.Checkbox(
                                 label="🌐 启用联网搜索",
                                 value=True,
-                                info="获取最新医疗动态",
+                                info="获取最新动态",
                                 elem_classes="web-search-toggle"
                             )
                             table_format_toggle = gr.Checkbox(
